@@ -5,5 +5,5 @@ document.addEventListener('DOMContentLoaded', function()){
 }
 function showMovieDetails(movie){
     const availableTickets = movie.capacity-movie.ticketsSold;
-    const movieDeets = document.getElementById('movieDetails';)
+    const movieDeets = document.getElementById('movieDetails');
 }
