@@ -4,5 +4,6 @@ document.addEventListener('DOMContentLoaded', function()){
     .then(data => showMovieDetails(data[0]));
 }
 function showMovieDetails(movie){
-    
+    const availableTickets = movie.capacity-movie.ticketsSold;
+    const movieDeets = document.getElementById('movieDetails';)
 }
