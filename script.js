@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('http://localhost:3000/films/1')
-    .then(response => response.json)
+    fetch('http://localhost:3000/films')
+    .then(response => response.json())
     .then(data => showMovieDetails(data[0]));
 })
+
 function showMovieDetails(movie){
     const availableTickets = movie.capacity-movie.tickets_sold;
     const movieDeets = document.getElementById('movieDetails');
@@ -11,5 +12,5 @@ function showMovieDetails(movie){
     <img src = ${movie.poster}>
     <p>Runtime: ${movie.runtime} minutes</p>
     <p>Showtime: ${movie.showtime}</p>
-    <p>Available Tickets: ${availableTickets} ONLY!</p>`
+    <p>Available Tickets: ${availableTickets} ONLY!</p>`;
 }
