@@ -30,6 +30,7 @@ function displayMovieDetails(movie) {
     movieDeets.innerHTML = `
         <h2>${movie.title}</h2>
         <img src="${movie.poster}" alt="${movie.title}">
+        <h3>Description: ${movie.description}</h3>
         <p>Runtime: ${movie.runtime} minutes</p>
         <p>Showtime: ${movie.showtime}</p>
         <p>Available Tickets: ${availableTickets} ONLY!</p>
