@@ -4,72 +4,19 @@ img {
     height: auto;
   }
 
-/*body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-}
-
-#container {
-    display:flex;
-    width: fit-content;
-    block-size: fit-content;
-    height:auto;
-
-}
-
-#films {
-    list-style:none;
-    padding: 0;
-    margin-right: 70px;
-}
-
 #films li {
-    margin-bottom: 10px;
     cursor: pointer;
+    padding: 1rem;
+}
+
+body {
+    background-color: #08113b;
+    color: #ffffff;
+    padding: 3rem;
 }
 
 #movieDetails {
-    width: 100%;
-    padding: 10px;
-    background: #fff;
+    padding: 1rem;
     border-radius: 20px;
     
 }
-
-#movieDetails img {
-    max-width: 90%;
-    height: 60%;
-    border-radius: 10px;
-    display: block;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#buyButton {
-    padding: 10px 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-}
-
-#buyButton:hover {
-    background-color: #45a049;
-}
-
-#buyButton:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-
-#soldOutMessage {
-    color: red;
-    font-weight: bold;
-    display: none;
-}*/
